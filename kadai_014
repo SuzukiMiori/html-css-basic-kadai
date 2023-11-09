@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>14章課題</title>
+     <meta name="description" content="このページは14章の課題です">
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+   </head>
+   <body>
+    <div>
+    <p class="google-fonts"><h1><span class="blue">M</span><span class="pink">Y</span>PROFILE</h1></p></div>
+     <p class="box"></p>
+     <div><h2 class="text-pink">名前</h2>
+     <p><b>鈴木　美織</b></p>
+     <h2 class="text-blue">生年月日</h2>
+     <p><b>1989年7月24日</b></p>
+     <h2 class="text-pink">血液型</h2>
+     <p><b>O型</b></p>
+     <h2 class="text-blue">趣味</h2>
+     <p>料理・ゲーム・散歩</p>
+     <h2 class="text-pink">好きな食べ物</h2>
+     <p>茶碗蒸し</p>
+     <h2 class="text-blue">プログラミングを始めた理由</h2>
+     <p>プログラマーとして転職したい。<br>
+      転職して数年後にはフリーランスになり場所を選ばず仕事を続けたいです。</p>
+    </div>
+    
+   </body>
+ </html>
