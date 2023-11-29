@@ -21,7 +21,7 @@ a {
 header  {
   text-align: center;
   margin-bottom: 20px;
-  color:rgb(244, 79, 79)
+  background-color:rgb(244, 79, 79)
   
 }
 main{
@@ -30,14 +30,14 @@ main{
 
 #parent{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   
 }
 
 
 .contents{
-  position: absolute;
+  
   border: solid 3px;
   color:rgb(238, 204, 204)  ;
   flex-basis: 25%;
@@ -65,14 +65,14 @@ h2::before{
 /* 反映済み */
 }
 
-.content img {
+.contents img {
   margin: 10px 0;
   width: 80%;
   /* content img 書き方あっているのか？ */
 }
 
 footer{
-  color:rgb(244, 79, 79)  ;
+  background-color:rgb(244, 79, 79)  ;
   text-align: center;
 }
 
@@ -90,15 +90,17 @@ a:hover {
 
 
 @media screen and (max-width: 768px){
-  div {
-    display: block
-  }
+  
   h2 {
     font-size: 30px;
   }
   p {
     font-size: 25px;
   }
+  #parent {
+    display: block;
+  }
+
 }
   
 div {
